@@ -1,0 +1,75 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+local-*
+.claude
+.z-ai-config
+*.log
+dev.log
+dev.out.log
+test
+prompt
+
+server.log
+# Skills directory
+/skills/
+
+# ---------------------------------------------------------------
+# local workspace artifacts — not part of the published site
+# ---------------------------------------------------------------
+/db/
+/download/
+/upload/
+/tool-results/
+/.reference/
+/.zscripts/
+/tests/
+/examples/
+/mini-services/
+/worklog.md
+/Caddyfile
+/scripts/kit/
+/scripts/build_pdf_html.py
+/scripts/gen_badges.py
+
+# personal track — the repo ships without it (see README "Add your own song")
+/public/assets/audio/reflections.mp3
